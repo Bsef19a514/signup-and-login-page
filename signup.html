@@ -11,7 +11,7 @@
             let flag=true;
             if(document.getElementById("FullName").value==""){
                
-                document.getElementById("fullname").innerHTML="*Please enter fullname."
+                document.getElementById("fullname").innerHTML="*Plz enter name."
                 flag=false
                
             }else{
@@ -19,14 +19,14 @@
             }
             if(document.getElementById("Age").value==""){
                 
-                document.getElementById("age").innerHTML="*Please enter age."
+                document.getElementById("age").innerHTML="*Plz enter age."
                 flag=false
             }else{
                 document.getElementById("age").innerHTML=""
             }
             if(document.getElementById("Phone").value==""){
                
-                document.getElementById("phone").innerHTML="*Please enter phone."
+                document.getElementById("phone").innerHTML="*Plz enter phone."
                 flag=false
             }
             else{
@@ -34,7 +34,7 @@
             }
             if(document.getElementById("Email").value==""){
                 
-                document.getElementById("email").innerHTML="*Please enter email."
+                document.getElementById("email").innerHTML="*Plz enter email."
                 flag=false
             }
             else{
@@ -42,7 +42,7 @@
             }
             if(document.getElementById("Password").value==""){
                
-                document.getElementById("password").innerHTML="*Please enter password."
+                document.getElementById("password").innerHTML="*Plz enter password."
                 flag=false
             }else{
                 if(document.getElementById("Password").value!=document.getElementById("CPassword").value){
@@ -51,12 +51,6 @@
                 }else{
                     document.getElementById("password").innerHTML=""
                 }
-            }
-            if(document.getElementById("CPassword").value==""){
-               document.getElementById("cPassword").innerHTML="*Please confirm password."
-                flag=false
-            }else{
-                document.getElementById("cPassword").innerHTML=""
             }
             
             return flag

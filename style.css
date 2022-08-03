@@ -24,6 +24,7 @@ body{
     margin: 7vh auto;
     border-radius: 10px;
     box-shadow: 5px 10px 20px grey;
+    position: relative;
 }
 
 .title{
@@ -64,11 +65,11 @@ body{
 }
 .form span{
     /* border: 1px solid green; */
-    color: orangered;
+    color: rgb(201, 34, 34);
     float: right;
     font-size: 15px;
     margin-top: 7px;
-    margin-right: 5px;
+    margin-right: 25px;
 }
 
 #btn{
@@ -89,16 +90,17 @@ body{
 }
 
 .footer{
-    margin-top: 17px;
     width: 80%;
     margin-left: 11%;
+    position: absolute;
+    bottom: 2%;
 }
 /* -------media queries for signup page */
 
 @media screen and (max-width:400px){
     .card{
         /* border: 1px solid red; */
-        width: 90%;
+        width: 95%;
         height: 500px;
         margin: 20vw auto;
     }
